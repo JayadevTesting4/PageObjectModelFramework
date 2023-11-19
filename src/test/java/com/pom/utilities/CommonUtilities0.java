@@ -23,7 +23,7 @@ public class CommonUtilities0 {
 	}
 
 	public static void main(String[] args) {
-		CommonUtilities comm = new CommonUtilities();
+		CommonUtilities0 comm = new CommonUtilities0();
 		comm.readConfig();
 		
 	}
