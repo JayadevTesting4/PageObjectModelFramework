@@ -1,5 +1,11 @@
 package com.pom.utilities;
 
+//logintest.java- LoginPage.java(CommonUtilities.java & config.properties) , 
+//				  config.properties ,
+//				  Hook.java(config.properties) &
+//				  TestEventListener.java
+
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,7 +20,7 @@ import org.testng.annotations.BeforeSuite;
 
 public class Hooks {
 
-	public Properties configData;
+	public static Properties configData;
 	public WebDriver driver;
 
 	@BeforeSuite
